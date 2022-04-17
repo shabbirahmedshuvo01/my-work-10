@@ -1,6 +1,5 @@
 import React from 'react';
-import doctor from '../../images/doctor01.jpg'
-import Services from '../Services/Services';
+import doctor from '../../images/doctor01.jpg';
 
 const Header = () => {
     return (
@@ -13,7 +12,6 @@ const Header = () => {
             <div>
                 <img style={{ height: '400px', width: '400px' }} src={doctor} alt="" />
             </div>
-            <Services></Services>
         </div>
     );
 };
