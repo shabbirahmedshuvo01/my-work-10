@@ -1,6 +1,7 @@
 import React from 'react';
 import doctor from '../../images/doctor01.jpg';
 import Services from '../Services/Services';
+import './Header.css'
 
 const Header = () => {
     return (
@@ -8,7 +9,7 @@ const Header = () => {
             <div>
                 <h1 className='mt-5'>Health Treatments...</h1>
             </div>
-            <div className='d-flex align-items-center p-5 mt-5 bg-success text-dark bg-opacity-25 justify-content-evenly'>
+            <div className='d-flex align-items-center p-5 mt-5 bg-success text-dark bg-opacity-25 justify-content-evenly work'>
                 <div>
                     <h2>Dr.Freddie Highmore</h2>
                     <br />

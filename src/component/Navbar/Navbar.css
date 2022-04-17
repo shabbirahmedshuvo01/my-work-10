@@ -22,3 +22,15 @@
 .header a:hover {
     color: orange;
 }
+
+@media only screen and (max-width:576px) {
+    .header {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    .header {
+        display: none;
+    }
+}
