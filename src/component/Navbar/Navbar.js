@@ -22,7 +22,7 @@ const Navbar = () => {
                     <Link to={'/services'}>Services</Link>
                     <Link to={'/blogs'}>Blogs</Link>
                     {user ?
-                        <button className='btn btn-danger' onClick={handleSingOut}>Sing Out</button>
+                        <button className='btn btn-danger' onClick={handleSingOut}>Sign Out</button>
                         :
                         <Link to={'/login'}>Login</Link>}
                     <Link to={'/about'}>About Me</Link>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../firebase.init';
+import OtherLogin from '../OtherLogin/OtherLogin';
 
 const Register = () => {
     const [
@@ -45,6 +46,7 @@ const Register = () => {
                         className='mx-auto btn btn-primary mt-2' type="submit" value="register" />
                 </form>
                 <p>Alredy have an account? <Link to={'/login'} onClick={navigateLogin} className='text-primary pe-auto text-decoration-none'>Please login</Link></p>
+                <OtherLogin></OtherLogin>
             </div>
         </div>
     );
