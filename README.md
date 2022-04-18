@@ -1,4 +1,26 @@
 # Getting Started with Create React App
+/**
+* Name: Dr.Freddie Highmore 
+* [link](https://my-dev-project63.web.app/)
+* 1. make homepage
+* 2. attached file
+* 3. make responsive
+* 4. set route
+* 5. work footer
+*/
+/**
+*
+* /
+* 1. bootstarp
+* 2. react-bottstap
+* 3. auth hooks 
+* 4. firebase
+* 5. etc....
+*/
+
+
+
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
